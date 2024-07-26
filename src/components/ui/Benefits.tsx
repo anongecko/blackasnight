@@ -16,9 +16,9 @@ export const Benefits = () => {
           {benefits.map((benefit, index) => (
             <div 
               key={index} 
-              className="bg-gradient-to-br from-gray-800 to-gray-900 p-6 rounded-[10px] shadow-lg border border-gray-700 h-[16.8rem] w-[70%] mx-auto flex flex-col justify-center items-center transition-all duration-200 ease-in-out hover:scale-105 hover:shadow-xl"
+              className="bg-gradient-to-br from-red-900 to-red-950 p-6 rounded-[10px] shadow-sm border border-gray-700 h-[16.8rem] w-[70%] mx-auto flex flex-col justify-center items-center transition-all duration-200 ease-in-out hover:scale-105 hover:shadow-xl"
             >
-              <h3 className="text-xl font-semibold text-crimson mb-2 font-primary text-center">{benefit.title}</h3>
+              <h3 className="text-xl font-semibold text-white mb-2 font-primary text-center">{benefit.title}</h3>
               <p className="text-text text-center">{benefit.description}</p>
             </div>
           ))}

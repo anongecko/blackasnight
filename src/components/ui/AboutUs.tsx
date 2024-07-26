@@ -11,9 +11,9 @@ export const AboutUs = () => {
             <Image 
               src="/logoWhite.svg"
               alt="DarkGPT Logo"
-              width={180}
-              height={180}
-              className="w-2/5 h-auto"
+              width={240}
+              height={240}
+              className="w-4/5 h-auto"
             />
           </div>
           <div className="md:w-2/3">
@@ -24,11 +24,11 @@ export const AboutUs = () => {
               With DarkGPT, businesses and individuals can rest assured that their digital assets are protected by the most sophisticated AI-driven security system available.
             </p>
             <div className="flex space-x-4">
-              <button className="px-6 py-2 text-sm font-medium text-white border-2 border-white rounded-full hover:bg-white hover:text-black focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white transition-transform duration-200 ease-in-out hover:scale-110">
+              <button className="px-6 py-2 text-lg font-lg text-white border-2 border-white rounded-full hover:bg-white hover:text-black focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white transition-transform duration-200 ease-in-out hover:scale-110">
                 Contact Us
               </button>
-              <button className="px-6 py-2 text-sm font-medium text-black bg-crimson rounded-full hover:bg-opacity-90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-crimson transition-transform duration-200 ease-in-out hover:scale-110">
-                Buy Now
+              <button className="px-6 py-2 text-lg font-medium text-black bg-crimson rounded-full hover:bg-opacity-90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-crimson transition-transform duration-200 ease-in-out hover:scale-110">
+                Get Started
               </button>
             </div>
           </div>

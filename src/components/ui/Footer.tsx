@@ -8,8 +8,8 @@ export const Footer: React.FC = () => {
         <Image 
           src="/logo.svg" 
           alt="DarkGPT Logo" 
-          width={200} 
-          height={68} 
+          width={100} 
+          height={34} 
           className="mb-4"
         />
         <div className="flex space-x-4 mb-4">

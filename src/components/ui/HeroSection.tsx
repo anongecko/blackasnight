@@ -119,19 +119,19 @@ export const HeroSection: React.FC = () => {
           DarkGPT
         </motion.h1>
         <motion.p 
-          className="text-xl text-white mb-8 font-secondary"
+          className="text-3xl text-white mb-8 font-secondary"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.7 }}
         >
-          Advanced • Secure • Intelligent • Vigilant • Adaptive
+          Fraud • Carding • Money Laundering • Hacking • Drug Manufacture
         </motion.p>
         <motion.button 
-          className="px-8 py-4 text-lg font-primary text-white bg-crimson rounded-full hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-crimson transition-all duration-300 ease-in-out transform hover:scale-105"
+          className="px-8 py-4 text-xl font-primary text-white bg-crimson rounded-full hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-crimson transition-all duration-300 ease-in-out transform hover:scale-105"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
-          Buy Now
+          Get Started
         </motion.button>
       </motion.div>
     </section>

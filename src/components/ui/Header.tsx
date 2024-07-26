@@ -39,9 +39,10 @@ export const Header: React.FC = () => {
           </button>
         </nav>
         <div className="flex items-center space-x-4">
-          <Button variant="outline" className="rounded-full">
+          <Link href="sign-in">
+          <Button variant="outline" className="rounded-full"></Button>
             Sign In
-          </Button>
+          </Link>
           <Button className="rounded-full">
             Get Started
           </Button>
