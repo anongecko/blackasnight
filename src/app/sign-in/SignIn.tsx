@@ -18,7 +18,7 @@ const formSchema = z.object({
   }),
 });
 
-export function SignInForm() {
+export function SignIn() {
   const [error, setError] = useState('');
 
   const form = useForm<z.infer<typeof formSchema>>({
