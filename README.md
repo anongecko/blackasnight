@@ -1,4 +1,4 @@
-# DarkGPT - Cyber Security AI
+# DarkGPT - Cyber Security AI NextJS Website
 
 DarkGPT is a cutting-edge AI specializing in cyber security for various specific use cases. This repository contains the code for the DarkGPT website, built with Next.js, TypeScript, Tailwind CSS, and ShadCN UI components. The website features a modern, responsive design with a futuristic hero section, interactive benefits, capabilities, and more.
 
